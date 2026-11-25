@@ -1,0 +1,1 @@
+{"protocol": "B", "lr": "warmup", "seed": 0, "epochs": 3, "seconds": 7, "mape": 48.73955535888672, "rmse": 39.51728057861328, "maxerr": 69.21568298339844, "mape_low": 45.06427764892578, "n_test": 568.0}

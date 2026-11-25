@@ -1,0 +1,5 @@
+{"protocol": "B", "lr": "warmup", "seed": 0, "epochs": 100, "seconds": 1742, "mape": 2.5406792163848877, "rmse": 3.0287022590637207, "maxerr": 53.65456771850586, "mape_low": 5.794471740722656, "n_test": 9906.0}
+{"protocol": "B", "lr": "warmup", "seed": 1, "epochs": 100, "seconds": 1796, "mape": 2.2749032974243164, "rmse": 2.3915770053863525, "maxerr": 13.439718246459961, "mape_low": 3.580326557159424, "n_test": 8625.0}
+{"protocol": "B", "lr": "warmup", "seed": 2, "epochs": 100, "seconds": 1815, "mape": 2.454826593399048, "rmse": 2.5587961673736572, "maxerr": 15.081298828125, "mape_low": 3.288165330886841, "n_test": 8132.0}
+{"protocol": "B", "lr": "warmup", "seed": 3, "epochs": 100, "seconds": 1872, "mape": 2.5681347846984863, "rmse": 2.8281922340393066, "maxerr": 47.174583435058594, "mape_low": 5.103724479675293, "n_test": 10380.0}
+{"protocol": "B", "lr": "warmup", "seed": 4, "epochs": 100, "seconds": 2059, "mape": 2.528475761413574, "rmse": 2.608308792114258, "maxerr": 15.54450511932373, "mape_low": 3.7773382663726807, "n_test": 9787.0}

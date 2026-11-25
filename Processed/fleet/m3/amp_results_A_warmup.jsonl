@@ -1,0 +1,2 @@
+{"cfg": "m3", "protocol": "A", "lr": "warmup", "seed": 1, "bs": 256, "epochs": 100, "seconds": 1819, "mape": 1.472366452217102, "rmse": 1.6085771322250366, "maxerr": 14.83504581451416, "mape_low": 1.8966068029403687, "n_test": 9647.0}
+{"cfg": "m3", "protocol": "A", "lr": "warmup", "seed": 2, "bs": 256, "epochs": 100, "seconds": 1314, "mape": 1.5074472427368164, "rmse": 1.6473942995071411, "maxerr": 11.60143756866455, "mape_low": 1.9621790647506714, "n_test": 9647.0}

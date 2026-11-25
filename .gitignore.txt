@@ -1,0 +1,31 @@
+# 1. Ignore everything by default
+*
+
+# 2. Allow folder traversal so Git can reach nested files
+!*/
+
+# 3. Keep the .gitignore file itself
+!.gitignore
+
+# 4. Whitelist ONLY the final scripts you actually ran (edit if needed)
+!Scripts/extract_v2.py
+!Scripts/model2.py
+!Scripts/train3.py
+!Scripts/fig2.py
+!Scripts/fig3.py
+!Scripts/fleet_stats.py
+
+# 5. Whitelist .png images inside Graphs/ AND its subfolders (ocv, sun, sun2, tues)
+!Graphs/**/*.png
+
+# 6. Whitelist ONLY .jsonl files inside BOTH Processed folders (skips .npz)
+!Processed/**/*.jsonl
+!Scripts/Processed/**/*.jsonl
+
+# 7. Exclude old backup folders inside Processed
+Processed/backup/
+Processed/baxkup3/
+
+# 8. Whitelist any standalone log or text files
+!**/*.log
+!**/*.txt

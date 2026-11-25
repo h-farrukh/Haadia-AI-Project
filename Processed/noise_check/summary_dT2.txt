@@ -1,0 +1,22 @@
+== all_plausible: 11,005 pairs, 287 vehicles, robust sigma(d)=0.0190
+  dAIC vs constant-noise M0 (negative = better): {'M1': -263.3882165970208, 'M2': -261.3882197957573, 'Mp': -273.8799599665217}
+  exponent p = 1.26  95% CI [1.0349416398850635, 1.4664146198490493]   (P1 predicts 1; ~0 = not SOC-driven)
+  binned log-log slope = 0.83
+  M2: sigma_soc=0.0091  floor tau=0.0000  median SOC-variance share=1.00
+  rank-OLS (std. beta [95% CI]) on |d|:
+    A = 1/(1-s) term   +0.152 [+0.122, +0.185]
+    C_ave              +0.099 [+0.066, +0.135]
+    |dT|               +0.044 [+0.022, +0.062]
+    T_ave              +0.007 [-0.020, +0.032]
+    gap_days           +0.017 [-0.004, +0.040]
+== no_flagged_outliers: 10,898 pairs, 287 vehicles, robust sigma(d)=0.0187
+  dAIC vs constant-noise M0 (negative = better): {'M1': -190.72402322728885, 'M2': -189.427061661263, 'Mp': -189.01867486719857}
+  exponent p = 1.04  95% CI [0.8299042128423458, 1.272283354469626]   (P1 predicts 1; ~0 = not SOC-driven)
+  binned log-log slope = 0.72
+  M2: sigma_soc=0.0085  floor tau=0.0043  median SOC-variance share=0.94
+  rank-OLS (std. beta [95% CI]) on |d|:
+    A = 1/(1-s) term   +0.140 [+0.111, +0.176]
+    C_ave              +0.097 [+0.065, +0.132]
+    |dT|               +0.044 [+0.019, +0.063]
+    T_ave              +0.013 [-0.017, +0.037]
+    gap_days           +0.014 [-0.007, +0.036]

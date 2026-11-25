@@ -1,0 +1,2 @@
+{"protocol": "A", "lr": "warmup", "seed": 0, "epochs": 100, "seconds": 1377, "mape": 1.371059775352478, "rmse": 1.5036606788635254, "maxerr": 11.048402786254883, "mape_low": 1.868008017539978, "n_test": 9647.0}
+{"protocol": "A", "lr": "warmup", "seed": 1, "epochs": 100, "seconds": 1373, "mape": 1.412171721458435, "rmse": 1.554499626159668, "maxerr": 15.391100883483887, "mape_low": 1.7174575328826904, "n_test": 9647.0}

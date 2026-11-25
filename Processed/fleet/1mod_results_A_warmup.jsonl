@@ -1,0 +1,3 @@
+{"protocol": "A", "lr": "warmup", "seed": 0, "epochs": 100, "seconds": 127, "mape": 2.2738640308380127, "rmse": 2.395395517349243, "maxerr": 15.373563766479492, "mape_low": 3.7155160903930664, "n_test": 9647.0}
+{"protocol": "A", "lr": "warmup", "seed": 1, "epochs": 100, "seconds": 125, "mape": 2.2353196144104004, "rmse": 2.368666887283325, "maxerr": 16.641462326049805, "mape_low": 3.4232327938079834, "n_test": 9647.0}
+{"protocol": "A", "lr": "warmup", "seed": 2, "epochs": 100, "seconds": 124, "mape": 2.2421398162841797, "rmse": 2.370354652404785, "maxerr": 24.83233642578125, "mape_low": 3.716597318649292, "n_test": 9647.0}

@@ -1,0 +1,12 @@
+samples=48,235  vehicles=296  seeds=3  folds=5  (vehicle-level OOF, RFR [UNSTATED IN PAPER - DEFAULT CHOICE])
+MAPE unweighted per seed: [2.048, 2.055, 2.042]   weighted: [2.103, 2.108, 2.092]
+== T3  r^2 = alpha + beta*a^2   (a = 1/(1-s))
+  floor alpha=6.29e-04   beta=7.31e-05 [2e-06, 0.000127]   T1-implied beta=0.00012061446418746854
+  noise share f = 0.21  95% CI [0.006, 0.426]   (rule of thumb: >=0.20 pursue, <0.10 drop) [ASSUMPTION]
+  RMSE (pct) = 2.83
+  MAPE by soc_start bin (unweighted): 10-20: 1.87% (n=8262), 20-30: 1.95% (n=11881), 30-40: 2.12% (n=13745), 40-50: 2.16% (n=14347)
+  MAPE by soc_start bin (weighted):   10-20: 1.85%, 20-30: 1.98%, 30-40: 2.18%, 40-50: 2.27%
+== T4  weighted - unweighted (negative = weighting helps), paired vehicle bootstrap
+  all        n=48,235  unw=2.048  w=2.101  delta=+0.053 pp  CI [0.034, 0.08]
+  low_s<=25  n=15,042  unw=1.897  w=1.897  delta=-0.000 pp  CI [-0.017, 0.027]
+  high_s>25  n=33,193  unw=2.117  w=2.194  delta=+0.077 pp  CI [0.059, 0.103]
